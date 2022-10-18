@@ -1,13 +1,4 @@
 resources:
-- ../base
-- ./../../../../../../apps/dummy-app/1.0
+  - ../base
+  - ./../../../../../../apps/dummy-app/1.0
 namespace: dummy-app
-configMapGenerator:
-- name: configuration-ipaddresses
-  behavior: replace
-  files:
-  - ipaddresses.config.json
-- name: ip-addresses.config
-  behavior: replace
-  files:
-  - C:\persistence3\repositories\contoso3\branch-f88e3b39-9b92-4219-863a-11d3df590cb8\clusters/portland/sets/coffee-line-charlie/dummy-app/2205.1/ip-addresses.config
