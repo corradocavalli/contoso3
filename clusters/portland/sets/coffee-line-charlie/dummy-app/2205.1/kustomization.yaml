@@ -12,3 +12,4 @@ configMapGenerator:
   files:
   - ip-addresses.config.json
   - ip-addresses.config2.json
+  - ip-addresses.config3.json
