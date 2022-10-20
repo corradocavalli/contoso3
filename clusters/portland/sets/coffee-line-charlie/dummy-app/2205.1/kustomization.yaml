@@ -7,3 +7,7 @@ configMapGenerator:
   behavior: replace
   files:
   - configuration-ipaddresses
+- name: configuration-ipaddresses
+  behavior: replace
+  files:
+  - ip-addresses.config.json
