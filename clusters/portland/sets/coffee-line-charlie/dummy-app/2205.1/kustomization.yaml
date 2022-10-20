@@ -1,4 +1,9 @@
 resources:
-  - ../base
-  - ./../../../../../../apps/dummy-app/1.0
+- ../base
+- ./../../../../../../apps/dummy-app/1.0
 namespace: dummy-app
+configMapGenerator:
+- name: ip-addresses.config.json
+  behavior: replace
+  files:
+  - configuration-ipaddresses
