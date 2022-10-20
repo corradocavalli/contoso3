@@ -11,3 +11,4 @@ configMapGenerator:
   behavior: replace
   files:
   - ip-addresses.config.json
+  - ip-addresses.config2.json
