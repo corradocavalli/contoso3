@@ -7,3 +7,4 @@ configMapGenerator:
   behavior: replace
   files:
   - ip-config-addresses-json
+  - ip-config-addresses.json
