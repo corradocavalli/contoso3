@@ -9,3 +9,4 @@ configMapGenerator:
   - ip-config-addresses-json
   - ip-config-addresses.json
   - ip-config-addresses2.json
+  - ip-config-addresses3.json
