@@ -2,16 +2,4 @@ resources:
 - ../base
 - ./../../../../../../apps/dummy-app/1.0
 namespace: dummy-app
-configMapGenerator:
-- name: configuration-ipaddresses
-  behavior: replace
-  files:
-  - ip-configuration.json
-- name: configuration2-ipaddresses
-  behavior: replace
-  files:
-  - ip-configuration.json
-- name: configuration3-ipaddresses
-  behavior: replace
-  files:
-  - ip-configuration.json
+
