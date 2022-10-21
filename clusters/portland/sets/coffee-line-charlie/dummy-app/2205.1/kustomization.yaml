@@ -11,3 +11,4 @@ configMapGenerator:
   behavior: replace
   files:
   - ipaddresses.config.json
+  - ipaddresses2.config.json
