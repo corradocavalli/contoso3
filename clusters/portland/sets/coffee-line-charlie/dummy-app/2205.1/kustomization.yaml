@@ -11,3 +11,7 @@ configMapGenerator:
   behavior: replace
   files:
   - ipaddresses2.config.json
+- name: configuration3-ipaddresses
+  behavior: replace
+  files:
+  - ipaddresses2.config.json
