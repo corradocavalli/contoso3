@@ -1,4 +1,0 @@
-resources:
-- ../base
-- ./../../../../../../apps/dummy-app/2205.1
-namespace: dummy-app
