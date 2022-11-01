@@ -1,0 +1,4 @@
+resources:
+- ../base
+- ./../../../../../../apps/dummy-app/1.0
+namespace: dummy-app
