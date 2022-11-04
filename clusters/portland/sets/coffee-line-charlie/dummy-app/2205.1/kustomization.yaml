@@ -6,4 +6,4 @@ configMapGenerator:
 - name: configuration-ipaddresses
   behavior: replace
   files:
-  - ipaddresses.config.json
+  - configuration-ipaddresses/ipaddresses.config.json
