@@ -2,3 +2,8 @@ resources:
 - ../base
 - ./../../../../../../apps/dummy-app/1.0
 namespace: dummy-app
+configMapGenerator:
+- name: configuration-ipaddresses
+  behavior: merge
+  files:
+  - configuration-ipaddresses/ipaddresses.config.json
