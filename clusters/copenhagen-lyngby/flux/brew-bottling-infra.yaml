@@ -2,7 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
   name: brew-bottling
-  namespace: flux-system
+  namespace: flux-workspace
 spec:
   interval: 1m
   sourceRef:
@@ -11,7 +11,7 @@ spec:
     namespace: default
   path: ./clusters/copenhagen-lyngby/sets/brew-bottling
   prune: true
-  wait: true
-  timeout: 10m
+  decryption:
+    provider: sops
   dependsOn:
   - name: copenhagen-lyngby-infra
