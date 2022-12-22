@@ -2,7 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
   name: line1
-  namespace: flux-workspace
+  namespace: flux-system
 spec:
   interval: 1m
   sourceRef:
@@ -11,7 +11,7 @@ spec:
     namespace: default
   path: ./clusters/e2e-test-site/sets/line1
   prune: true
-  decryption:
-    provider: sops
+  wait: true
+  timeout: 10m
   dependsOn:
   - name: e2e-test-site-infra
